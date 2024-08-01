@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <title>Tambah Siswa</title>
+    <title>Tambah Petugas</title>
   </head>
 
   <body>
@@ -14,19 +14,19 @@
         <div class="col-md-8 offset-md-2">
           <div class="card">
             <div class="card-header">
-              TAMBAH ANGGOTA
+              TAMBAH PETUGAS
             </div>
             <div class="card-body">
-              <form action="simpan-siswa.php" method="POST">
+              <form action="simpan-petugas.php" method="POST">
             
               <div class="form-group">
-                  <label>JENIS KELAMIN</label>
-                  <input type="text" name="jenis_kelamin" placeholder="Masukkan Nama siswa" class="form-control">
+                  <label>NAMA PETUGAS</label>
+                  <input type="text" name="nama_petugas" placeholder="Masukkan Nama Petugas" class="form-control">
                 </div>
 
                 <div class="form-group">
-                  <label>NAMA ANGGOTA</label>
-                  <textarea class="form-control" name="nama_anggota" placeholder="Masukkan Alamat siswa" rows="4"></textarea>
+                  <label>JENIS KELAMIN</label>
+                  <textarea class="form-control" name="jenis_kelamin" placeholder="Masukkan Jenis Kelamin" rows="4"></textarea>
                 </div>
 
                 <div class="form-group">
