@@ -26,7 +26,7 @@
 
                 <div class="form-group">
                   <label>JUMLAH DIPINJAM</label>
-                  <textarea class="form-control" name="jumlah_dipinjamn" placeholder="Masukkan Jumlah Dipinjam" rows="4"></textarea>
+                  <textarea class="form-control" name="jumlah_dipinjam" placeholder="Masukkan Jumlah Dipinjam" rows="4"></textarea>
                 </div>
 
 
